@@ -1,56 +1,28 @@
-# Hotel-and-turizem
-# Hotel Booking & Controller System
-
-A multi-language web app for hotel reservations, service management, and store inventory.
-
-## Pages
-
-| File | Role |
-|------|------|
-| `customer.html` | Customer portal — browse hotels, book services, upload payment proof, get a one-time QR code |
-| `admin.html` | Hotel owner dashboard — fixed locations, bank accounts, bookings (English UI) |
-| `admission.html` | Controller & store — stock tracking, quantity updates, transaction audit |
-
----
-
-## Features
-
-### Customer Portal (`customer.html`)
-- **Languages:** Amharic, English, Afaan Oromoo, Tigrinya
-- **Quick view:** Tap a hotel card to open details
-- **Fixed locations:** Saved Google Maps links per hotel (not device GPS)
-- **Hotel-specific payments:** Telebirr, CBE, BOA, Dashen shown per hotel
-- **Verification:** Fayda ID + payment receipt required before QR is issued
-- **AI helper:** Basic answers on options, pricing, and simple diet tips
-
-### Hotel Dashboard (`admin.html`)
-- Clean English UI for fast management
-- Save permanent coordinates or Google Maps URL per hotel
-- Assign Telebirr and bank accounts to each hotel
-- Manage rooms, dining, pool, spa, and entertainment
-
-### Controller & Store (`admission.html`)
-- Live stock tracking for raw materials and inventory
-- Simple `+` / `−` quantity controls
-- View payments, contact info, and reference numbers in one place
-
----
-
-## Tech Stack
-
-- **Frontend:** HTML5, CSS3, JavaScript (ES6), Tailwind CSS
-- **Backend & Auth:** Firebase Realtime Database, Firebase Authentication (Google Sign-In)
-- **Libraries:** qrcodejs, Font Awesome
-
----
-
-## Getting Started
-
-1. Clone this repository
-2. Open any of the HTML files in a browser (or serve with a local static server)
-3. Configure Firebase credentials in each file if needed
-4. Enable Google Sign-In in Firebase Authentication for the customer portal
-
----
-
-## Project Structure
+🏨 Hotel Management System — Main Portal Hub
+​Welcome to the Hotel Management System Central Portal. This portal serves as the single access point connecting all three major components of the platform: Customer Interface, Controller Dashboard, and Hotel Control Panel.
+​📌 Portal Overview & Working Mechanism
+​The portal is designed as a unified launchpad. It organizes access to each distinct section of the system, providing three direct action links per system component:
+​🌐 Live Site: Launches the deployed application live on GitHub Pages.
+​💻 View Code: Direct access to the official GitHub repository for source code inspection.
+​▶️ Watch Video: Direct link to YouTube video demonstrations illustrating the component in operation.
+​🗂️ System Components Breakdown
+​1. 🛒 Customer Interface
+​Function: Guest-facing application where visitors browse hotel options, inspect available amenities (rooms, dining, spa, pool), complete online bookings with Fayda/ID proof uploads, and receive single-use QR codes.
+​🌐 Live Deployment: Costemer-interface Live
+​💻 GitHub Code: Costemer-interface Repository
+​▶️ YouTube Demo: Customer Portal Walkthrough Video
+​2. ⚙️ Controller Page
+​Function: Central platform management dashboard used by system administrators to approve or block hotel accounts, track global platform revenue, audit user security logs, and oversee system-wide inventory.
+​🌐 Live Deployment: Controlerpage Live
+​💻 GitHub Code: Controlerpage Repository
+​▶️ YouTube Demo: Controller Overview Video
+​3. 🏨 Hotel Control Page
+​Function: Property management interface operated by approved hotel owners to set permanent Google Maps location markers, set specific Telebirr/Bank account details, add room listings, and process incoming customer bookings.
+​🌐 Live Deployment: Hotelcontrolpage Live
+​💻 GitHub Code: Hotelcontrolpage Repository
+​▶️ YouTube Demo: Hotel Control Demonstration Video
+​🛠️ File Structure
+├── index.html   # Main Portal HTML Structure
+├── style.css    # Clean card-based responsive design styles
+├── script.js    # Script file for link click handling and tracking
+└── README.md    # Documentation for portal links and architecture
