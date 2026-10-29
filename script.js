@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+Document.addEventListener("DOMContentLoaded", () => {
     console.log("Hotel Management Main Portal loaded successfully.");
 
     // Dynamic hover effects & link analytics logging
